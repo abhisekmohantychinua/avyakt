@@ -1,0 +1,29 @@
+<div class="w-full max-w-xl h-screen mx-auto flex flex-col justify-center items-center">
+    <div class="h-60 w-60 rounded-full object-cover overflow-hidden bg-black">
+        <img [src]="developerInfo.profile" alt="">
+    </div>
+    <h1 class="text-4xl font-semibold">
+        {{developerInfo.name}}
+    </h1>
+    <h3 class="text-2xl font-normal">
+        {{developerInfo.role}}
+    </h3>
+    <p>
+        {{developerInfo.bio}}
+    </p>
+
+    <div class="w-full flex justify-center items-center space-x-4 my-5">
+        <a [href]="developerInfo.socialLinks.facebook" target="_blank">
+            <img src="/assets/facebook.png" alt="" class="w-10 h-10">
+        </a>
+        <a [href]="developerInfo.socialLinks.linkedin" target="_blank">
+            <img src="/assets/linkedin.png" alt="" class="w-10 h-10">
+        </a>
+        <a [href]="developerInfo.socialLinks.github" target="_blank">
+            <img src="/assets/github.png" alt="" class="w-10 h-10">
+        </a>
+        <a [href]="developerInfo.socialLinks.portfolio" target="_blank">
+            <img src="/assets/portfolio.png" alt="" class="w-10 h-10">
+        </a>
+    </div>
+</div>

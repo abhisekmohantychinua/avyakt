@@ -1,0 +1,25 @@
+<div class="relative bg-cover bg-center h-96 overflow-hidden transition-transform transform-gpu hover:scale-105"
+    [style.backgroundImage]="'url(' + event?.poster + ')'">
+    <div class="absolute inset-0 bg-black opacity-50 transition-opacity hover:opacity-25"></div>
+    <div class="absolute bottom-0 left-0 p-10 text-white" *ngFor="let contact of event?.contact">
+        <p class="text-md">{{ contact.name }}</p>
+        <p class="text-md">{{ contact.phone }}</p>
+    </div>
+
+    <div class="absolute bottom-0 right-0 p-10">
+        <button
+            class="bg-purple-500 text-white px-4 py-2 rounded-full transition-transform transform-gpu hover:scale-105">
+            {{ event?.participation }}
+        </button>
+    </div>
+    <div
+        class="absolute inset-0 flex items-center justify-center text-white text-center transition-transform transform-gpu hover:-translate-y-2">
+        <div>
+            <h2 class="text-4xl font-bold mb-4">{{ event?.title }}</h2>
+            <p class="text-lg">{{ event?.desc }}</p>
+            <p class="text-sm mt-4">Type: {{ event?.type }}</p>
+            <button
+                class="mt-6 bg-blue-500 text-white px-4 py-2 rounded-full transition-transform transform-gpu hover:scale-105">Participate</button>
+        </div>
+    </div>
+</div>

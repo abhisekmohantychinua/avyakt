@@ -1,0 +1,21 @@
+.first {
+  background-image: url("/assets/aboutbg.png");
+}
+.second {
+  background-image: url("/assets/aboutsecond.jpeg");
+}
+.third {
+  background-image: url("/assets/aboutglimpseseven.jpeg");
+}
+
+.img-card {
+  flex: 1 1 calc(33.33% - 10px);
+  margin: 5px;
+  max-width: calc(33.33% - 10px);
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
