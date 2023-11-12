@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class DevComponent {
   developerInfo = {
     name: 'Abhisek Mohanty',
-    profile: '/assets/profile.jpg',
+    profile: './assets/profile.jpg',
     role: 'Full Stack Developer',
     bio: 'Passionate about creating innovative solutions.',
     socialLinks: {
