@@ -3,13 +3,13 @@ import { Respected } from '../models/respected';
 
 export const respecteds: Array<Respected> = [
   {
-    image: '/assets/Registrar.png',
+    image: './assets/Registrar.png',
     title: 'Prof. N V J Rao',
     subtitle: 'Registrar GIET University',
     desc: 'Dear Students and Participants of AVYAKT 3.0, I am delighted to extend my heartfelt congratulations to all of you on the upcoming tech fest, AVYAKT 3.0, scheduled from 9th to 11th November 2023. As the Registrar of GIET University, it brings me immense joy to witness your enthusiasm, dedication, and remarkable talent as you prepare for this event. As you embark on this exciting adventure, I extend my best wishes to you all. May your projects shine brightly, your presentations captivate your audience, and your collaborative spirit inspire those around you. May AVYAKT 3.0 become an unforgettable chapter in your academic journey.',
   },
   {
-    image: '/assets/dean.png',
+    image: './assets/dean.png',
     title: 'Prof. Sanjay Kuanar',
     subtitle: 'Dy. Dean(CSE), GIET University',
     desc: `Dear Students and Participants of AVYAKT 3.0,I am thrilled to extend my warmest congratulations to each and every one of you on the occasion of our eagerly awaited tech fest, AVYAKT 3.0, which is set to take place from 9th to 11th November 2023. As the Dean of the Computer Science Department at GIET University, I couldn't be more proud of the enthusiasm, dedication, and talent that you all bring to this event.AVYAKT has always been a platform for our students to shine, innovate, and showcase their technical prowess across a diverse range of domains. It's not just an event; it's a ceebration of your creativity, your hard work, and your passion for technology.I am confident that AVYAKT 3.0 will be a resounding success, thanks to your innovative ideas and unwavering dedication. Remember, it's not just about winning; it's about the journey, the friendships, and the knowledge you gain along the way.Let's celebrate technology, creativity, and the boundless potential that resides within each one of you. Together, we will make AVYAKT 3.0 a remarkable testament to your talents and aspirations.`,
