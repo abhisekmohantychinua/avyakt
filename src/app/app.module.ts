@@ -9,7 +9,6 @@ import { AboutComponent } from './pages/about/about.component';
 import { EventsComponent } from './pages/events/events.component';
 import { DevComponent } from './pages/dev/dev.component';
 import { RespectedComponent } from './components/respected/respected.component';
-import { DropdownComponent } from './components/dropdown/dropdown.component';
 import { EventCardComponent } from './components/event-card/event-card.component';
 
 @NgModule({
@@ -21,7 +20,6 @@ import { EventCardComponent } from './components/event-card/event-card.component
     EventsComponent,
     DevComponent,
     RespectedComponent,
-    DropdownComponent,
     EventCardComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
